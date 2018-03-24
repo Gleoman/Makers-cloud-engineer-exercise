@@ -2,9 +2,9 @@
 
 ## **Project Description**
 
-This tech test follows my attendance of the Makers Academy developer course, which principally focused on Ruby, Ruby-on-Rails and JavaScript but also allowed us to expore Python and Django.
+This project and website follows my attendance of the Makers Academy developer course, which principally focused on Ruby, Ruby-on-Rails and JavaScript but also allowed us to expore Python and Django.
 
-This TDD website allows visitors to rate ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.  It also allows owners of the website to view the users' ratings.
+The site allows visitors to rate ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.  It also allows owners of the website to view the users' ratings.
 
 For clarity and to aid the development process, I have broken the requirements down into User Stories that are set out further below.
 
@@ -16,13 +16,13 @@ For clarity and to aid the development process, I have broken the requirements d
 
 ## **Running the Tests**
 
-The testing framework for this website is Rspec and Capybara.
+The website has been designed according on a TDD basis.  The testing frameworks used are Rspec and Capybara.
 
 ---
 
 ## **Deployment**
 
-This website is deployed on the Heroku platform, using a cloud based PostgreSQL database, which allows for ease of scale.
+The website is deployed on the Heroku platform, using a cloud based PostgreSQL database, which allows for ease of scale.
 
 ---
 
@@ -100,8 +100,8 @@ I would like to be able to rate ft.com
 
 ```
 As a User
-So that I can receive feedback
-I would like to be able to view the ratings of visitors to ft.com
+So that I can see feedback on ft.com
+I would like to view its ratings
 ```
 
 #### **User Story 3**
