@@ -15,6 +15,6 @@ feature 'Index display' do
 
   scenario 'new review link' do
     visit '/'
-    find_link('Click to review').visible?
+    find_link('Please rate our website').visible?
   end
 end

@@ -1,3 +1,48 @@
+<!DOCTYPE html>
+<html class="core" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Origami template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+
+
+	html {
+			/* Set a font family on the whole document */
+			font-family: FinancierDisplayWeb, sans-serif;
+
+			/* Prevent navigation menus from creating
+			   extra space on sides of the page */
+			overflow-x: hidden;
+		}
+
+    h1 {
+		  font-family: MetricWeb, serif;
+	  }
+
+		body {
+			/* Remove space around the document */
+			margin: 20;
+      background-color: #FFF1E5;
+      line-height: 1.6;
+      font-family: MetricWeb, serif;
+		}
+
+    div.notice {
+      background-color: #CCE6FF;
+    }
+	</style>
+	<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-fonts@^3.0.4, o-buttons
+" />
+  <script async type="javascript" src="https://www.ft.com/__origami/service/build/v2/bundles/js?modules=o-buttons"></script>
+	<script>
+		(function(src) {
+		}('https://www.ft.com/__origami/service/build/v2/bundles/js?modules=a,b,c'));
+	</script>
+</head>
+<body>
 <h1> The FT's Ratings </h1>
 
 
@@ -9,8 +54,10 @@
     <% @review.each do |r| %>
       <div class="rating">
         <%= r.rating %>
+        <!-- <%= r.created_at.to_time.strftime("- submitted on %d/%m/%Y, at %I:%M%p") %> -->
       </div>
     <% end %>
   </div>
-
-<%= link_to 'Click to review', new_review_path %>
+    <button class="o-buttons o-buttons--secondary"><%= link_to 'Please rate our website', new_review_path %></button>
+  </body>
+</html>
