@@ -1,10 +1,8 @@
 # **Makers-cloud-engineer-exercise**
 
-## **Project Description**
+## **Product Description**
 
-This project and website follows my attendance of the Makers Academy developer course, which principally focused on Ruby, Ruby-on-Rails and JavaScript but also allowed us to expore Python and Django.
-
-The site allows visitors to rate ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.  It also allows owners of the website to view the users' ratings.
+This product is a website that displays and requests ratings for ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.
 
 For clarity and to aid the development process, I have broken the requirements down into User Stories that are set out further below.
 
@@ -12,23 +10,29 @@ For clarity and to aid the development process, I have broken the requirements d
 
 ## **Installation, Dependencies and Getting Started**
 
+Please run the following from the command line to install dependencies:
+
+```
+bundle install
+```
+
 ---
 
 ## **Running the Tests**
 
 The website has been designed according on a TDD basis.  The testing frameworks used are Rspec and Capybara.
 
+To run the tests please run the following from the command line:
+
+```
+rspec
+```
+
 ---
 
 ## **Deployment**
 
 The website is deployed on the Heroku platform, using a cloud based PostgreSQL database, which allows for ease of scale.
-
----
-
-## **Continuous Integration and Travis**
-
-The design has been rolled out using the Travis continuous integration service to ensure that it is automatically tested at each commit.
 
 ---
 
@@ -44,7 +48,7 @@ I considered the following approaches to the overall design and set out my reaso
 
    **Pros**
 
-   Ruby, Ruby-on-Rails and Heroku constituted the language/framework/platform package that I was most familiar with following my completion of the Makers Academy developer course.
+   Ruby, Ruby-on-Rails and Heroku constituted the a package was familiar to me following my completion of the Makers Academy developer course.
 
    **Cons**
 
@@ -74,7 +78,7 @@ I considered the following approaches to the overall design and set out my reaso
 
    **Pros**
 
-   JavaScript and Node are very widely used and was also taught on the Makers Academy course, although to a significantly lesser degree than Ruby/Ruby-on-Rails.  The FT github also indicates that, out of the languages that I considered, this is the most frequently used at the FT.
+   JavaScript and Node was on the Makers Academy course, although to a significantly lesser degree than Ruby/Ruby-on-Rails, and are widely used.  The FT's github also shows that JavaScript is a favoured language there.
 
    **Cons**
 
