@@ -6,7 +6,7 @@ feature 'Index display' do
     review_two = Review.create(rating: 2)
 
     visit '/'
-    expect(page).to have_content("Today's FT_Ratings")
+    expect(page).to have_content("The FT's Ratings")
     expect(page).to have_content("4")
     expect(page).to have_content("2")
     expect(page).to_not have_content("1")
@@ -15,6 +15,6 @@ feature 'Index display' do
 
   scenario 'new review link' do
     visit '/'
-    find_link('New').visible?
+    find_link('Click to review').visible?
   end
 end
