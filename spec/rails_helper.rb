@@ -1,4 +1,9 @@
-
+require 'simplecov'
+SimpleCov.start 'rails' do
+  add_filter "/channels"
+  add_filter "/jobs"
+  add_filter "/mailers/"
+end
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 
@@ -8,6 +13,7 @@ require 'spec_helper'
 require 'support/database_cleaner.rb'
 require 'capybara/rspec'
 require 'pry'
+
 
 ActiveRecord::Migration.maintain_test_schema!
 

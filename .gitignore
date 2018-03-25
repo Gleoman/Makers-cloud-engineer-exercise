@@ -52,3 +52,5 @@ config/initializers/secret_token.rb
 
 # Ignore node_modules
 node_modules/
+
+coverage

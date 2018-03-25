@@ -8,14 +8,14 @@ class ReviewController < ApplicationController
   end
 
   def create
-    @review = Review.create(review_params)
-      if @review.save
-        # flash[:success] = "Bingo! Your review has been created."
-        redirect_to action: 'index'
-      else
-        # flash[:alert] = "No, no, no! - Rating required to post"
-        render 'new'
-      end
+    if params[:review].blank?
+      flash[:notice] = "Rating is required"
+      redirect_to action: 'new'
+    else
+      @review = Review.create(review_params)
+      flash[:notice] = "Review successfully created"
+      redirect_to action: 'index'
+    end
   end
 
 private
@@ -23,5 +23,4 @@ private
   def review_params
     params.require(:review).permit(:rating)
   end
-
 end

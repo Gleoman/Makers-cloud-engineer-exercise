@@ -1,5 +1,10 @@
 <h1> Today's FT_Ratings </h1>
 
+
+  <% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+  <% end %>
+
   <div class="review wrapper">
     <% @review.each do |r| %>
       <div class="rating">
