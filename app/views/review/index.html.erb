@@ -1,0 +1,11 @@
+<h1> Today's FT_Ratings </h1>
+
+  <div class="review wrapper">
+    <% @review.each do |r| %>
+      <div class="rating">
+        <%= r.rating %>
+      </div>
+    <% end %>
+  </div>
+
+<%= link_to 'New', new_review_path %>

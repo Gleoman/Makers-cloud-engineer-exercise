@@ -7,6 +7,7 @@ require 'rspec/rails'
 require 'spec_helper'
 require 'support/database_cleaner.rb'
 require 'capybara/rspec'
+require 'pry'
 
 ActiveRecord::Migration.maintain_test_schema!
 
