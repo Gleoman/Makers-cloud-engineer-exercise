@@ -1,6 +1,6 @@
 class ReviewController < ApplicationController
   def index
-    @review = Review.all
+    @review = Review.all.order(created_at: :desc)
   end
 
   def new
