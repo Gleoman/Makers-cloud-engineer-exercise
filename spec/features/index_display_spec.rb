@@ -2,8 +2,8 @@ require 'rails_helper'
 
 feature 'Index display' do
   scenario 'list of reviews\' ratings' do
-    review_one = Review.create(rating: 4)
-    review_two = Review.create(rating: 2)
+    Review.create(rating: 4)
+    Review.create(rating: 2)
 
     visit '/'
     expect(page).to have_content("The FT's Ratings")
