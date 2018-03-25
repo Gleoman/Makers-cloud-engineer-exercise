@@ -32,6 +32,10 @@ RSpec.configure do |config|
     DatabaseCleaner.strategy = :transaction
   end
 
+  config.before(:each, js: true) do
+    DatabaseCleaner.strategy = :truncation
+  end
+
   config.before(:each, type: :feature) do
     # :rack_test driver's Rack app under test shares database connection
     # with the specs, so we can use transaction strategy for speed.

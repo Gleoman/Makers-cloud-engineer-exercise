@@ -10,9 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180324190813) do
+ActiveRecord::Schema.define(version: 20180325093044) do
 
   create_table "ratings", force: :cascade do |t|
+    t.integer "rating"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
