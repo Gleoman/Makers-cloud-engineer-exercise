@@ -38,7 +38,7 @@ The website is deployed on the Heroku platform.
 
 ## **Diagram of the Website's Architecture**
 
-![Screenshot](FT Tech Test Diagram.png)
+![Site Architecture](https://github.com/Gleoman/Makers-cloud-engineer-exercise/blob/master/FT%20Tech%20Test%20Diagram.png)
 
 ---
 
