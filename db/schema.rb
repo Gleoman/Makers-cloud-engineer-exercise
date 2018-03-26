@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20180325093044) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "reviews", force: :cascade do |t|
     t.integer "rating"
     t.datetime "created_at", null: false
