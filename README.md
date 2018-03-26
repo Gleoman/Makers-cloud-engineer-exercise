@@ -50,7 +50,7 @@ I considered the following approaches to the overall design and set out my reaso
 
    **Pros**
 
-   Ruby, Ruby-on-Rails and Heroku constituted the a package was familiar to me following my completion of the Makers Academy developer course.
+   Ruby, Ruby-on-Rails and Heroku constituted a package that was familiar to me following my completion of the Makers Academy developer course.
 
    **Cons**
 
@@ -60,35 +60,35 @@ I considered the following approaches to the overall design and set out my reaso
 
    **Pros**
 
-   In the same way that Ruby-on-Rails can feel restrictive, using pure Ruby and Sinatra can feel as if it provides the developer with greater freedom to design the website as they see fit in a manner which might not be possible within the constraints of a framework.
+   Contrasting with RoR's constraints, pure Ruby/Sinatra feels as if it provides greater freedom for design than would otherwise be available within the constraints of a framework.
 
    **Cons**
 
-   Efficieny was the principle argument against Ruby and Sinatra.  I felt that this would require more work at each stage, potentially hindering progress to each iteration/step of the MVP and leading to a less effective overall design.
+   Efficiency was the principle argument against Ruby and Sinatra.  I felt that this would require more work at each stage, potentially hindering progress to each iteration/step of the MVP and leading to a less effective overall design.
 
  - _**Python, Django and a platform (Heroku, AWS, Google)**_
 
    **Pros**
 
-   Python is a language that was relatively new to me when I designed this website, having only just picked it up over the course of my final project at Makers Academy.  I enjoyed the challenge and feel of Python and also note that this is a language that the FT uses.
+   Python is a language that was relatively new to me when I designed this website, having only just picked it up over the course of my final project at Makers Academy.  I enjoyed experimenting with Python then and also note that it is frequently featured on ft.com's github.
 
    **Cons**
 
-   My experience of Python and Django was self-taught over the course of the final 2 weeks of the Makers Academy course and was not part of the direct curriculum (i.e. not taught by the Academy).  As a result, I had less confidence in this  package.
+   My experience of Python and Django was self-taught over the course of the final 2 weeks of the Makers Academy course and was not part of the direct curriculum (i.e. not taught by the Academy).  As a result, I had less confidence in this package.
 
  - _**JavaScript, Node and a platform (Heroku, AWS, Google)**_
 
    **Pros**
 
-   JavaScript and Node was on the Makers Academy course, although to a significantly lesser degree than Ruby/Ruby-on-Rails, and are widely used.  The FT's github also shows that JavaScript is a favoured language there.
+   JavaScript and Node were on the Makers Academy course, although to a significantly lesser degree than Ruby/Ruby-on-Rails, and are widely used.  The FT's github also shows that JavaScript is a favoured language there.
 
    **Cons**
 
-   Given that the Makers Academy course places a significant emphasis on strict OO design principles, I felt that using a more flexibe multi-paradigm language might not play to my strengths and lead to a lower quality final product.
+   Given that the Makers Academy course places a significant emphasis on strict OO design principles, I felt that using a more flexible multi-paradigm language might not play to my strengths and lead to a lower quality final product.
 
 **Conclusion**
 
-I decided to choose the first option of Ruby, Ruby-on-Rails and Heroku on the basis that this packge was the one that I was most familiar with and would allow me to progress to the MVP in the most efficient fashion possible, then freeing up more time to concentrate on refining and refactoring the code.  On that final point, I was also mindful of the possibility, should I have sufficient time, of rearticulating the design in any of the other options, both as a learning process and out of simple curiosity.
+I decided to choose the first option of Ruby, Ruby-on-Rails and Heroku on the basis that this package was the one that I was most familiar with and would allow me to progress to the MVP in the most efficient fashion possible, then freeing up more time to concentrate on refining and refactoring the code.  On that final point, I was also mindful of the possibility, should I have sufficient time, of re-articulating the design in any of the other options, both as a learning process and out of simple curiosity.
 
 ---
 
