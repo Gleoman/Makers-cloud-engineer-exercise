@@ -8,13 +8,15 @@ For clarity and to aid the development process, the application requirements wer
 
 ---
 
-## **Installation, Dependencies and Getting Started**
+## **Installation, Dependencies and Ruby Version**
 
 Please run the following from the command line to install dependencies:
 
 ```
 bundle install
 ```
+
+This application has been built with Ruby version 2.4.1.
 
 ---
 
@@ -32,7 +34,7 @@ rspec
 
 ## **Deployment**
 
-The website is deployed on the Heroku platform.
+The website is deployed on the Heroku platform at https://eg-ft-tech-test.herokuapp.com/.
 
 ---
 

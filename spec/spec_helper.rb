@@ -20,8 +20,6 @@ config.formatter = :documentation
     config.default_formatter = "doc"
   end
 
-  # config.profile_examples = 10
-
   config.order = :random
 
 end
