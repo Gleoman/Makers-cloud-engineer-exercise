@@ -1,10 +1,10 @@
 # **Makers-cloud-engineer-exercise**
 
-## **Product Description**
+## **Project Description**
 
-This product is a website that displays and requests ratings for ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.
+This application displays and requests ratings for ft.com. It is deployed in the cloud and the UX has been designed using FT-style Origami Components.
 
-For clarity and to aid the development process, I have broken the requirements down into User Stories that are set out further below.
+For clarity and to aid the development process, the application requirements were broken down into User Stories that are set out further below.
 
 ---
 
@@ -20,7 +20,7 @@ bundle install
 
 ## **Running the Tests**
 
-The website has been designed according on a TDD basis.  The testing frameworks used are Rspec and Capybara.
+The website has been designed on a TDD basis.  The testing frameworks used are Rspec and Capybara.
 
 To run the tests please run the following from the command line:
 
@@ -32,11 +32,13 @@ rspec
 
 ## **Deployment**
 
-The website is deployed on the Heroku platform, using a cloud based PostgreSQL database, which allows for ease of scale.
+The website is deployed on the Heroku platform.
 
 ---
 
 ## **Diagram of the Website's Architecture**
+
+![Screenshot](FT Rating App Diagram.png)
 
 ---
 
@@ -95,7 +97,7 @@ I decided to choose the first option of Ruby, Ruby-on-Rails and Heroku on the ba
 #### **User Story 1**
 
 ```
-As a User 
+As a User
 So that I can provide feedback
 I would like to be able to rate ft.com
 ```
@@ -135,4 +137,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
