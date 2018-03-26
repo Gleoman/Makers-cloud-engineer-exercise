@@ -38,7 +38,7 @@ The website is deployed on the Heroku platform.
 
 ## **Diagram of the Website's Architecture**
 
-![Screenshot](Makers-cloud-engineer-exercise/FT Rating App Diagram.pdf)
+![Screenshot](FT Rating App Diagram.pdf)
 
 ---
 
