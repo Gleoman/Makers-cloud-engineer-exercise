@@ -70,7 +70,7 @@ I considered the following approaches to the overall design and set out my reaso
 
    **Pros**
 
-   Python is a language that was relatively new to me when I designed this website, having only just picked it up over the course of my final project at Makers Academy.  I enjoyed experimenting with Python then and also note that it is frequently featured on ft.com's github.
+   Python was relatively new to me when I designed this website, having only just picked it up over the course of my final project at Makers Academy.  I enjoyed experimenting with Python then and also note that it is frequently featured on ft.com's github.
 
    **Cons**
 
@@ -88,7 +88,7 @@ I considered the following approaches to the overall design and set out my reaso
 
 **Conclusion**
 
-I decided to choose the first option of Ruby, Ruby-on-Rails and Heroku on the basis that this package was the one that I was most familiar with and would allow me to progress to the MVP in the most efficient fashion possible, then freeing up more time to concentrate on refining and refactoring the code.  On that final point, I was also mindful of the possibility, should I have sufficient time, of re-articulating the design in any of the other options, both as a learning process and out of simple curiosity.
+I decided to choose the first option of Ruby, Ruby-on-Rails and Heroku on the basis that it was the package that I was most familiar with and that would allow me to progress to the MVP in the most efficient fashion possible, then freeing up more time to concentrate on refining and refactoring the code.  On that final point, I was also mindful of the possibility, should I have sufficient time, of re-articulating the design in any of the other options, both as a learning process and out of simple curiosity.
 
 ---
 
