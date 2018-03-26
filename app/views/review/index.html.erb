@@ -8,14 +8,8 @@
 
 	<style>
 
-
 	html {
-			/* Set a font family on the whole document */
 			font-family: FinancierDisplayWeb, sans-serif;
-
-			/* Prevent navigation menus from creating
-			   extra space on sides of the page */
-			overflow-x: hidden;
 		}
 
     h1 {
@@ -23,7 +17,6 @@
 	  }
 
 		body {
-			/* Remove space around the document */
 			margin: 20;
       background-color: #FFF1E5;
       line-height: 1.6;
@@ -33,6 +26,7 @@
     div.notice {
       background-color: #CCE6FF;
     }
+
 	</style>
 	<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-fonts@^3.0.4, o-buttons
 " />
@@ -43,7 +37,7 @@
 	</script>
 </head>
 <body>
-<h1> The FT's Ratings </h1>
+<h1> FT.com's ratings </h1>
 
 
   <% if flash[:notice] %>
@@ -53,8 +47,10 @@
   <div class="review wrapper">
     <% @review.each do |r| %>
       <div class="rating">
-        <%= r.rating %>
-        <!-- <%= r.created_at.to_time.strftime("- submitted on %d/%m/%Y, at %I:%M%p") %> -->
+        <p>
+          Score of <%= r.rating %>
+          <%= r.created_at.to_time.strftime("- submitted on %d/%m/%Y, at %I:%M%p") %>
+        </p>
       </div>
     <% end %>
   </div>

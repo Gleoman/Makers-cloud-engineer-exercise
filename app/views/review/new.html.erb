@@ -8,14 +8,8 @@
 
 	<style>
 
-
 		html {
-  			/* Set a font family on the whole document */
   			font-family: FinancierDisplayWeb, sans-serif;
-
-  			/* Prevent navigation menus from creating
-  			   extra space on sides of the page */
-  			overflow-x: hidden;
   		}
 
       h1 {
@@ -23,7 +17,6 @@
   	  }
 
 		body {
-			/* Remove space around the document */
 			margin: 20;
       background-color: #FFF1E5;
       line-height: 1.6;
@@ -33,6 +26,7 @@
     div.notice {
       background-color: #CCE6FF;
     }
+
 	</style>
 	<link rel="stylesheet" href="https://www.ft.com/__origami/service/build/v2/bundles/css?modules=o-fonts@^3.0.4, o-buttons
 " />
@@ -44,7 +38,7 @@
 </head>
 
 <body>
-<h1>Please rate our website</h1>
+<h1>Please score FT.com</h1>
 
     <% if flash[:notice] %>
       <div class="notice"><%= flash[:notice] %></div>
@@ -55,18 +49,26 @@
   	<p>
     <div id ="buttons">
     	<%= form.label :rating %><br>
-    	<div id="1">
+      <p>
+      <div id="1">
       	<button class="o-buttons o-buttons--secondary"><%=form.radio_button(:rating, 1) %><%= label_tag(:rating, "1") %></button>
     	</div>
+      </p>
+      <p>
     	<div id="2">
         <button class="o-buttons o-buttons--secondary"><%=form.radio_button(:rating, 2) %><%= label_tag(:rating, "2") %></button>
     	</div>
+      </p>
+      <p>
     	<div id="3">
         <button class="o-buttons o-buttons--secondary"><%=form.radio_button(:rating, 3) %><%= label_tag(:rating, "3") %></button>
     	</div>
+      </p>
+      <p>
     	<div id="4">
         <button class="o-buttons o-buttons--secondary"><%=form.radio_button(:rating, 4) %><%= label_tag(:rating, "4") %></button>
     	</div>
+      </p>
     </div>
   	</p>
 
